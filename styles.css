@@ -70,11 +70,11 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 5px solid black;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.15) rotate(5deg);
 }
 .tag {
   background-color: #efefef;
@@ -100,6 +100,14 @@ header .profile-image:hover {
 }
 .card:hover {
   border-color: #6a5beb;
+}
+.card img{
+  align-self: center;
+  text-align: center;
+  max-width: 200px;
+  max-height: 200px;
+  border: 5px solid black;
+  width: 60vw;
 }
 
 ul.skills {
